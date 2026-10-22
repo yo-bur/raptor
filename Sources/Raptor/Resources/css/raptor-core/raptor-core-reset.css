@@ -249,8 +249,15 @@ input {
     box-sizing: border-box;
 }
 
+textarea {
+   border: 0;
+    border-radius: 0.375rem;
+    padding: 0.5rem 0.75rem;
+    box-sizing: border-box;
+}
+
 [data-color-scheme="dark"] {
-    input {
+    input, textarea {
         color: var(--fg);
         background-color: var(--bg);
     }
