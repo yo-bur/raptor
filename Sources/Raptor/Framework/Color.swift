@@ -181,6 +181,8 @@ public struct Color: CustomStringConvertible, Equatable, Hashable, Sendable {
     public static let quaternaryBackground = Color(variable: "--bg-quaternary")
     public static let quinaryBackground = Color(variable: "--bg-quinary")
 
+    public static let backgroundPage = Color(variable: "--bg-page")
+
     public static let red = Color(variable: "--r-red")
     public static let orange = Color(variable: "--r-orange")
     public static let yellow = Color(variable: "--r-yellow")
