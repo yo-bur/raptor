@@ -146,7 +146,7 @@ public struct TextFieldLong<Label: InlineContent>: InlineContent {
 
         return switch controlLabelStyle {
         case .hidden:
-            Input()
+            TextArea()
                 .attributes(attributes)
                 .aria(.label, labelText)
                 .render()
@@ -162,7 +162,7 @@ public struct TextFieldLong<Label: InlineContent>: InlineContent {
                 .class("field-label")
 
                 Section {
-                    Input()
+                    TextArea()
                         .attributes(attributes)
                 }
                 .class("field-control")
